@@ -1,5 +1,6 @@
 $('.collapse-one').toggle();
 $('.collapse-two').toggle();
+$('.collapse-three').toggle();
 
 $('#toggle-one button').click(function () {
 	console.log('one clicked');
@@ -8,6 +9,10 @@ $('#toggle-one button').click(function () {
 
 $('#toggle-two button').click(function () {
 	$('.collapse-two').slideToggle({ duration: 200 });
+});
+
+$('#toggle-three button').click(function () {
+	$('.collapse-three').slideToggle({ duration: 200});
 });
 
 // Animating icon
