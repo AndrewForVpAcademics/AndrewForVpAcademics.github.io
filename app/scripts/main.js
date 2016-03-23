@@ -12,7 +12,7 @@ $('#toggle-two button').click(function () {
 });
 
 $('#toggle-three button').click(function () {
-	$('.collapse-three').slideToggle({ duration: 200});
+	$('.collapse-three').slideToggle({ duration: 200 });
 });
 
 // Animating icon
